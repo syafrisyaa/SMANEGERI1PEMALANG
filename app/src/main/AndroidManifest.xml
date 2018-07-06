@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogspot.broapplications.smanegeri1pemalang">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BerandaActivity"
+            android:label="SMA NEGERI 1 PEMALANG"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpmdhActivity"
+            android:label="PENGURUS MASJID DARUL HAFIDZ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ErebanaActivity"
+            android:label="REBANA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EbarabActivity"
+            android:label="BAHASA ARAB"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EhycActivity"
+            android:label="HEAVEN YOUTH COMMUNITY"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EkcActivity"
+            android:label="KATOLIK CLUB"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpmrActivity"
+            android:label="PALANG MERAH REMAJA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EtonpasusActivity"
+            android:label="TONPASUS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpksActivity"
+            android:label="PATROLI KEAMANAN SEKOLAH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpirActivity"
+            android:label="PENELITIAN ILMIAH REMAJA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpramukaActivity"
+            android:label="PRAMUKA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ElhActivity"
+            android:label="LINGKUNGAN HIDUP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EkwhActivity"
+            android:label="KEWIRAUSAHAAN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EbbasketActivity"
+            android:label="BOLA BASKET"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EbvoliActivity"
+            android:label="BOLA VOLI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EbolaActivity"
+            android:label="SEPAK BOLA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpencakActivity"
+            android:label="PENCAK SILAT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EtaekActivity"
+            android:label="TAEKWONDO"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EkarateActivity"
+            android:label="KARATE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EkarawitanActivity"
+            android:label="KARAWITAN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EpadusActivity"
+            android:label="PADUAN SUARA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EseruActivity"
+            android:label="SENI RUPA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EsentarActivity"
+            android:label="SENI TARI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EteaterActivity"
+            android:label="TEATER"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EjurnalActivity"
+            android:label="JURNALISTIK"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EictActivity"
+            android:label="@string/ict"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EEscActivity"
+            android:label="ENGLISH SPEAKING CLUB"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EdcActivity"
+            android:label="DEUTSCH CLUB"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PermActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MajuActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

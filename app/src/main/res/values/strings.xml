@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SMA NEGERI 1 PEMALANG</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="jdwl">JADWAL GURU &amp; SISWA</string>
+    <string name="proker">PROGRAM KERJA</string>
+    <string name="ppmdh">Bekerja sama dengan OSIS-MPK mengadakan kegiatan Tahun Baru Hijriyah, Peringatan Maulid Nabi, Peringatan Isra’ Mi’raj, Kegiatan Ramadhan, Idul Adha.</string>
+    <string name="action_settings">Settings</string>
+    <string name="ict">INFORMATION &amp; COMMUNICATION TECHNOLOGY</string>
+</resources>

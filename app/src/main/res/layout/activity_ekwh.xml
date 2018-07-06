@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.broapplications.smanegeri1pemalang.EkwhActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/proker"
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Praktek membuat hidangan yang sederhana namun bernilai jual tinggi. "
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Membuat majalah dinding yang berisikan profil ekstrakulikuler kewirausahaan."
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Melaksanakan praktek jual beli di lapangan yang memerhitungkan modal dan keuntungan dalam bentuk laporan."
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mendatangkan orang yang berpengalaman dalam bidang kewirausahaan untuk mengisi kegiatan ekstrakulikuler."
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Membuat seragam identitas ekstrakulikuler kewirausahaan."
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengadakan seminar setiap semesternya dengan mendatangkan praktisi untuk berbagi ilmu mengenai kewirausahaan."
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengadakan bazar yang bekerjasama dengan kegiatan ekstrakulikuler lainnyauntuk mengisi Kegiatan Tengah Semester maupun Kegiatan Akhir semester. "
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengikuti event-event di luar sekolah seperti bazar misalnya Car Free Day untuk berjualan dan mengenalkan hasil karya siswa SMA NEGERI 1 PEMALANG."
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengadakan kegiatan amal dengan hasil berwirausaha para anggota."
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

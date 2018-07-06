@@ -1,0 +1,857 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ekstrafragment"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.broapplications.smanegeri1pemalang.EkstraFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/banner"
+                android:textAlignment="center"
+                android:text="EKSTRAKURIKULER"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:id="@+id/pmdh"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:orientation="vertical"
+                    android:background="@color/colorGrapeFruit"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:background="@color/colorGrapeFruitDark"
+                        android:text="PMDH"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:id="@+id/rebana"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorBitterSweet"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:background="@color/colorBitterSweetDark"
+                        android:text="REBANA"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:id="@+id/bahasaarab"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorFlower"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                       android:background="@color/colorFlowerDark"
+                        android:text="BAHASA ARAB"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:id="@+id/hyc"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorGrass"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorGrassDark"
+                        android:text="HYC"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/kc"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueJeans"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorBlueJeansDark"
+                        android:text="KC"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/pmr"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorLavander"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorLavanderDark"
+                        android:text="PMR"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Second Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/tonpasus"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorMint"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorMintDark"
+                        android:text="TONPASUS"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/pks"
+                    android:orientation="vertical"
+                    android:background="@color/colorAqua"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorAquaDark"
+                        android:text="PKS"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/pir"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorPinkRose"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorPinkRoseDark"
+                        android:text="PIR"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Third Row-->
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/pramuka"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorGrapeFruit"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorGrapeFruitDark"
+                        android:text="PRAMUKA"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/lhidup"
+                    android:orientation="vertical"
+                    android:background="@color/colorBitterSweet"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorBitterSweetDark"
+                        android:text="LH"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/kwh"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorFlower"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorFlowerDark"
+                        android:text="KWH"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/bolabasket"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorGrass"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorGrassDark"
+                        android:text="BOLA BASKET"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/bolavoli"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueJeans"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorBlueJeansDark"
+                        android:text="BOLA VOLI"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/sepakbola"
+                    android:background="@color/colorLavander"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorLavanderDark"
+                        android:text="SEPAK BOLA"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Second Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/pencaksilat"
+                    android:orientation="vertical"
+                    android:background="@color/colorMint"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorMintDark"
+                        android:text="PENCAK SILAT"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/taekwondo"
+                    android:orientation="vertical"
+                    android:background="@color/colorAqua"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorAquaDark"
+                        android:text="TAEKWONDO"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/karate"
+                    android:orientation="vertical"
+                    android:background="@color/colorPinkRose"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorPinkRoseDark"
+                        android:text="KARATE"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/karawitan"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorGrapeFruit"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorGrapeFruitDark"
+                        android:text="KARAWITAN"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/paduansuara"
+                    android:orientation="vertical"
+                    android:background="@color/colorBitterSweet"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorBitterSweetDark"
+                        android:text="PADUAN SUARA"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/senirupa"
+                    android:orientation="vertical"
+                    android:background="@color/colorFlower"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorFlowerDark"
+                        android:text="SENI RUPA"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/senitari"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorGrass"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorGrassDark"
+                        android:text="SENI TARI"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/teater"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorBlueJeans"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorBlueJeansDark"
+                        android:text="TEATER"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/jurnalistik"
+                    android:orientation="vertical"
+                    android:background="@color/colorLavander"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorLavanderDark"
+                        android:text="JURNALISTIK"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Second Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/ict"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorMint"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorMintDark"
+                        android:text="ICT"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/esc"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorAqua"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorAquaDark"
+                        android:text="ESC"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:id="@+id/dc"
+                    android:orientation="vertical"
+                    android:background="@color/colorPinkRose"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"                        android:background="@color/colorPinkRoseDark"
+                        android:text="DEUTSCH CLUB"
+                        android:textSize="22sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

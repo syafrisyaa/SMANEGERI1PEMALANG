@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.broapplications.smanegeri1pemalang.EsentarActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/proker"
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Latihan rutin setiap hari Jumat"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengikuti kegiatan BPD"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Ikut berpartisipasi dalam acara GKS"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengisi acara Wisuda SMA N 1 Pemalang"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengisi acara luar sekolah seperti pembukaan cabang lomba, pembukaan acara, dance competition, dan lain sebagainya. "
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                android:text="Mengikuti FLS2N Seni Tari"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

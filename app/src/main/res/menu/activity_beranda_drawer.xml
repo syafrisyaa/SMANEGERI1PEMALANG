@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="BERANDA" />
+        <item
+            android:id="@+id/nav_ppdb"
+            android:icon="@drawable/ic_developer_board_black_48dp_2x"
+            android:title="INFO PPDB" />
+        <item
+            android:id="@+id/navvisimisi"
+            android:icon="@drawable/ic_check_circle_black_48dp"
+            android:title="VISI MISI" />
+        <item
+            android:id="@+id/nav_sejarah"
+            android:icon="@drawable/ic_history_black_48dp"
+            android:title="SEJARAH" />
+        <item
+            android:id="@+id/nav_sarpras"
+            android:icon="@drawable/ic_store_black_48dp"
+            android:title="SARANA PRASARANA" />
+        <item
+            android:id="@+id/nav_ekstra"
+            android:icon="@drawable/ic_directions_run_black_48dp"
+            android:title="EKSTRAKURIKULER" />
+        <item
+            android:id="@+id/navjadwal"
+            android:icon="@drawable/baseline_people_outline_black_48dp"
+            android:title="@string/jdwl" />
+        <item
+            android:id="@+id/nav_kemdikbud"
+            android:icon="@drawable/kemdikb"
+            android:title="DATA KEMDIKBUD" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_info_black_48dp"
+            android:title="TENTANG" />
+    </group>
+
+</menu>

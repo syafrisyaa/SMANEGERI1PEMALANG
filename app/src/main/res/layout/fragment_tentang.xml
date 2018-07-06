@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.broapplications.smanegeri1pemalang.TentangFragment">
+
+    ->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="80dp"
+            android:text="PROFIL SMA NEGERI 1 PEMALANG  versi 1.0"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="-DIBUAT OLEH PARA PELAJAR SMA NEGERI 1 PEMALANG-"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="SHARE" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="RATE US" />
+
+        <Button
+            android:layout_width="200dp"
+            android:id="@+id/button3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ASPIRASI ONLINE"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
